@@ -8,6 +8,6 @@ void main(List<String> arguments) {
   int part1 = sumCalibrations(data);
   int part2 = wordedSumCalibrations(data);
 
-  print("Part1: $part1");
-  print("Part2: $part2");
+  print('Part1: $part1');
+  print('Part2: $part2');
 }
