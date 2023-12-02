@@ -2,4 +2,4 @@
 
 [![Language](https://img.shields.io/badge/language-Dart-blue.svg)](https://dart.dev)
 
-Language: Dart
+TODO: Add a github action that runs all the dart tests
