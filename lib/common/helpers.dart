@@ -13,3 +13,16 @@ String safeGetString(List<String> list, int index) {
   }
   return list[index];
 }
+
+extension CustomIterables on List<String> {
+  Iterable<String> removeEmpty() {
+    return where((element) => element.isNotEmpty);
+  }
+}
+
+extension NumberMaps on Map<dynamic, int> {
+  /// returns the value of the key or 0 if the key is not found
+  int getOrZero(dynamic key) {
+    return (this[key] ?? 0);
+  }
+}
